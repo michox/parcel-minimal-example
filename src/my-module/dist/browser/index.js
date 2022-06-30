@@ -7,9 +7,9 @@ function $parcel$export(e, n, v, s) {
 
 $parcel$defineInteropFlag(module.exports);
 
-$parcel$export(module.exports, "default", () => $882b6d93070905b3$export$2e2bcd8739ae039);
-function $882b6d93070905b3$export$2e2bcd8739ae039() {
-    return "Hello World";
+$parcel$export(module.exports, "default", () => $45f75dd55e83ae80$export$2e2bcd8739ae039);
+function $45f75dd55e83ae80$export$2e2bcd8739ae039() {
+    return "Hello Browser";
 }
 
 

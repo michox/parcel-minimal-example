@@ -1,1 +1,1 @@
-{"mappings":";;;;;;;;;;AAAe,oDAAY;IACzB,OAAO,aAAa,CAAC;CACtB","sources":["src/index.ts"],"sourcesContent":["export default function () {\r\n  return 'Hello World';\r\n}\r\n"],"names":[],"version":3,"file":"index.js.map"}
+{"mappings":";;;;;;;;;;AAAe,oDAAY;IACzB,OAAO,eAAe,CAAC;CACxB","sources":["src/index.browser.ts"],"sourcesContent":["export default function () {\r\n  return 'Hello Browser';\r\n}\r\n\r\nexport interface IHelloBrowser {\r\n    browser: string;\r\n}"],"names":[],"version":3,"file":"index.js.map"}
