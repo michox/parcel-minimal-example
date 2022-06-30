@@ -1,0 +1,1 @@
+{"mappings":"AAGA,wCAEC","sources":["src/src/index.ts","src/index.ts"],"sourcesContent":[null,"\r\nimport hello from \"my-module\"\r\n\r\nexport default function print(){\r\n    return hello();\r\n}"],"names":[],"version":3,"file":"index.d.ts.map","sourceRoot":"../"}

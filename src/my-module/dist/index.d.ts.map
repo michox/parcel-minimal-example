@@ -1,0 +1,1 @@
+{"mappings":"AAAA,mCAEC;AAED;IACI,IAAI,EAAE,MAAM,CAAC;CAChB","sources":["src/src/index.ts","src/index.ts"],"sourcesContent":[null,"export default function () {\r\n  return 'Hello World';\r\n}\r\n\r\nexport interface IHelloWorld {\r\n    test: string;\r\n}"],"names":[],"version":3,"file":"index.d.ts.map","sourceRoot":"../"}

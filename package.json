@@ -1,0 +1,44 @@
+{
+  "name": "parcel-minimal-example",
+  "version": "0.1.0",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "browser": "dist/browser/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src/**"
+  ],
+  "targets": {
+    "main": {
+      "context": "node",
+      "isLibrary": true,
+      "optimize": false,
+      "includeNodeModules": [
+        "my-module"
+      ]
+    },
+    "browser": {
+      "context": "browser",
+      "isLibrary": true,
+      "optimize": false,
+      "includeNodeModules": [
+        "my-module"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "parcel build"
+  },
+  "license": "ISC",
+  "dependencies": {   
+    "my-module": "file:src/my-module",    
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.3.2",
+    "@parcel/transformer-typescript-tsc": "^2.6.2",
+    "@parcel/transformer-typescript-types": "^2.3.2",
+    "parcel": "^2.6.2"
+  }
+}

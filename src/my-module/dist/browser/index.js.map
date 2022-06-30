@@ -1,0 +1,1 @@
+{"mappings":";;;;;;;;;;AAAe,oDAAY;IACzB,OAAO,aAAa,CAAC;CACtB","sources":["src/index.ts"],"sourcesContent":["export default function () {\r\n  return 'Hello World';\r\n}\r\n"],"names":[],"version":3,"file":"index.js.map"}
